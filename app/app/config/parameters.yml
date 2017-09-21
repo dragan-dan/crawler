@@ -1,0 +1,28 @@
+# This file is auto-generated during the composer install
+parameters:
+    monolog:
+        logger_name: starred
+        handler:
+            stream:
+                enabled: true
+                type: stream
+                path: /app/app/logs/application.log
+                level: debug
+                line_format:
+                    date_format: 'Y-m-d\TH:i:s.uP'
+    messaging:
+        uecode_qpush:
+            cache_service: null
+            logging_enabled: false
+            providers:
+                database:
+                    driver: custom
+                    service: messaging.provider.database_client
+            queues:
+                url:
+                    provider: database
+                    options:
+                        queue_name: url
+                        push_notifications: false
+                        subscribers: null
+                        messages_to_receive: 10

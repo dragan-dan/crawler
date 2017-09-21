@@ -1,0 +1,24 @@
+services:
+    ### QPush Registry
+    uecode_qpush.registry:
+        class: %uecode_qpush.registry.class%
+    uecode_qpush:
+        alias: uecode_qpush.registry
+
+    ### QPush Default File Cache
+    uecode_qpush.file_cache:
+        class: Doctrine\Common\Cache\PhpFileCache
+        arguments: [/tmp/qpush, qpush.php]
+        public: false
+
+    ## Postgres client for custom provider
+#    postgres_client.factory:
+#        class: \Library\DAO\Postgre\PostgreConnectionFactory
+    postgres_client.factory:
+        class: \Services\Factory
+
+    postgres_client:
+        class: resource
+        factory: ["@postgres_client.factory", create]
+        arguments:
+            servicename: 'postgre_connection'

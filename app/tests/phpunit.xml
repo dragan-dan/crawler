@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         stopOnFailure="false"
+         bootstrap="unit_bootstrap.php"
+         colors="true"
+         verbose="false"
+         debug="false"
+        >
+
+    <testsuite name="Starred API Unit-Tests">
+        <directory>./</directory>
+    </testsuite>
+
+    <logging>
+        <log type="junit" target="./junit.xml" logIncompleteSkipped="false"/>
+    </logging>
+
+</phpunit>

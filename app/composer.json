@@ -1,0 +1,27 @@
+{
+  "name": "email crawler for starred",
+  "license": "MIT",
+  "type": "project",
+  "platform": {
+    "php": "5.6"
+  },
+  "require": {
+    "ext-pcntl": "*",
+    "silex/silex": "~1.2",
+    "symfony/config": "~2.6",
+    "symfony/console": "~2.6",
+    "monolog/monolog": "~1.13",
+    "guzzlehttp/guzzle": "~6.0",
+    "phpunit/phpunit": "4.8.*",
+    "mockery/mockery": "^0.9.4",
+    "symfony/dom-crawler": "~2.3|3.0.*",
+    "symfony/css-selector": "~2.3|3.0.*",
+    "uecode/qpush-bundle": "~2.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "": "src",
+      "Tests\\Mocks\\" : "tests/Mock/"
+    }
+  }
+}

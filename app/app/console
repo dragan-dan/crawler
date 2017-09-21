@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+
+use Symfony\Component\Console\Application;
+
+/* Include the application bootstrap */
+include_once __DIR__.'/../app/bootstrap.php';
+
+$cliApp = new Application('Crawler Worker');
+$cliApp->addCommands(array(
+    new \Console\Command\Daemon\WorkerCommand($app),
+));
+$cliApp->run();

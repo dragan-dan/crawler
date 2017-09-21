@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="Starred API Unit-Tests" tests="132" assertions="188" failures="0" errors="0" time="0.155093">
+    <testsuite name="Library\DAO\Postgre\Test\BaseDAOTest" file="/app/tests/Library/DAO/Postgre/BaseDAOTest.php" tests="4" assertions="4" failures="0" errors="0" time="0.009999">
+      <testcase name="testFindRelationalWithColumns" class="Library\DAO\Postgre\Test\BaseDAOTest" file="/app/tests/Library/DAO/Postgre/BaseDAOTest.php" line="14" assertions="1" time="0.002817"/>
+      <testcase name="testFindWithJsonQuery" class="Library\DAO\Postgre\Test\BaseDAOTest" file="/app/tests/Library/DAO/Postgre/BaseDAOTest.php" line="37" assertions="1" time="0.001583"/>
+      <testcase name="testFindWithJsonQueryWithColumns" class="Library\DAO\Postgre\Test\BaseDAOTest" file="/app/tests/Library/DAO/Postgre/BaseDAOTest.php" line="61" assertions="1" time="0.003288"/>
+      <testcase name="testFindWithJsonQueryWithArrayColumn" class="Library\DAO\Postgre\Test\BaseDAOTest" file="/app/tests/Library/DAO/Postgre/BaseDAOTest.php" line="86" assertions="1" time="0.002311"/>
+    </testsuite>
+    <testsuite name="Library\DAO\Postgre\Json\Query\Field\Test\SelectFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/SelectFieldTest.php" tests="6" assertions="6" failures="0" errors="0" time="0.005418">
+      <testcase name="testSelectField" class="Library\DAO\Postgre\Json\Query\Field\Test\SelectFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/SelectFieldTest.php" line="16" assertions="1" time="0.001824"/>
+      <testcase name="testSelectFieldWithFunction" class="Library\DAO\Postgre\Json\Query\Field\Test\SelectFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/SelectFieldTest.php" line="28" assertions="1" time="0.001256"/>
+      <testcase name="testSelectFieldWithMultipleFunctions" class="Library\DAO\Postgre\Json\Query\Field\Test\SelectFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/SelectFieldTest.php" line="41" assertions="1" time="0.000643"/>
+      <testcase name="testSelectAll" class="Library\DAO\Postgre\Json\Query\Field\Test\SelectFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/SelectFieldTest.php" line="58" assertions="1" time="0.000540"/>
+      <testcase name="testSelectFieldNonPrim" class="Library\DAO\Postgre\Json\Query\Field\Test\SelectFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/SelectFieldTest.php" line="71" assertions="1" time="0.000528"/>
+      <testcase name="testGetBindParameters" class="Library\DAO\Postgre\Json\Query\Field\Test\SelectFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/SelectFieldTest.php" line="83" assertions="1" time="0.000627"/>
+    </testsuite>
+    <testsuite name="Library\DAO\Postgre\Json\Query\Field\Test\SortFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/SortFieldTest.php" tests="3" assertions="3" failures="0" errors="0" time="0.001821">
+      <testcase name="testSortFieldWithDefaultDirection" class="Library\DAO\Postgre\Json\Query\Field\Test\SortFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/SortFieldTest.php" line="13" assertions="1" time="0.000738"/>
+      <testcase name="testSortFieldAsc" class="Library\DAO\Postgre\Json\Query\Field\Test\SortFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/SortFieldTest.php" line="24" assertions="1" time="0.000556"/>
+      <testcase name="testSortFieldDesc" class="Library\DAO\Postgre\Json\Query\Field\Test\SortFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/SortFieldTest.php" line="36" assertions="1" time="0.000527"/>
+    </testsuite>
+    <testsuite name="Library\DAO\Postgre\Json\Query\Field\Test\WhereFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/WhereFieldTest.php" tests="9" assertions="18" failures="0" errors="0" time="0.005048">
+      <testcase name="testWhereField" class="Library\DAO\Postgre\Json\Query\Field\Test\WhereFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/WhereFieldTest.php" line="16" assertions="2" time="0.000537"/>
+      <testcase name="testWhereFieldWithNullValue" class="Library\DAO\Postgre\Json\Query\Field\Test\WhereFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/WhereFieldTest.php" line="29" assertions="2" time="0.000539"/>
+      <testcase name="testWhereFieldWithFunctions" class="Library\DAO\Postgre\Json\Query\Field\Test\WhereFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/WhereFieldTest.php" line="42" assertions="2" time="0.000548"/>
+      <testcase name="testWhereFieldWithValueFunction" class="Library\DAO\Postgre\Json\Query\Field\Test\WhereFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/WhereFieldTest.php" line="59" assertions="2" time="0.000645"/>
+      <testcase name="testWhereFieldWithFunctionAndValueFunction" class="Library\DAO\Postgre\Json\Query\Field\Test\WhereFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/WhereFieldTest.php" line="78" assertions="2" time="0.000560"/>
+      <testcase name="testWhereFieldWithArrayValues" class="Library\DAO\Postgre\Json\Query\Field\Test\WhereFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/WhereFieldTest.php" line="92" assertions="2" time="0.000548"/>
+      <testcase name="testWhereFieldWithArrayValuesAndFunction" class="Library\DAO\Postgre\Json\Query\Field\Test\WhereFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/WhereFieldTest.php" line="105" assertions="2" time="0.000548"/>
+      <testcase name="testWhereFieldExistOperator" class="Library\DAO\Postgre\Json\Query\Field\Test\WhereFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/WhereFieldTest.php" line="118" assertions="2" time="0.000589"/>
+      <testcase name="testWhereCriteriaField" class="Library\DAO\Postgre\Json\Query\Field\Test\WhereFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/WhereFieldTest.php" line="131" assertions="2" time="0.000534"/>
+    </testsuite>
+    <testsuite name="Library\DAO\Postgre\Json\Query\Field\Test\WhereOrFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/WhereOrFieldTest.php" tests="7" assertions="14" failures="0" errors="0" time="0.004026">
+      <testcase name="testWhereOrField" class="Library\DAO\Postgre\Json\Query\Field\Test\WhereOrFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/WhereOrFieldTest.php" line="18" assertions="2" time="0.000718"/>
+      <testcase name="testWhereFieldWithNullValue" class="Library\DAO\Postgre\Json\Query\Field\Test\WhereOrFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/WhereOrFieldTest.php" line="31" assertions="2" time="0.000559"/>
+      <testcase name="testWhereFieldWithFunctions" class="Library\DAO\Postgre\Json\Query\Field\Test\WhereOrFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/WhereOrFieldTest.php" line="44" assertions="2" time="0.000574"/>
+      <testcase name="testWhereFieldWithValueFunction" class="Library\DAO\Postgre\Json\Query\Field\Test\WhereOrFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/WhereOrFieldTest.php" line="61" assertions="2" time="0.000537"/>
+      <testcase name="testWhereFieldWithFunctionAndValueFunction" class="Library\DAO\Postgre\Json\Query\Field\Test\WhereOrFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/WhereOrFieldTest.php" line="80" assertions="2" time="0.000539"/>
+      <testcase name="testWhereFieldWithArrayValues" class="Library\DAO\Postgre\Json\Query\Field\Test\WhereOrFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/WhereOrFieldTest.php" line="94" assertions="2" time="0.000535"/>
+      <testcase name="testWhereFieldWithArrayValuesAndFunction" class="Library\DAO\Postgre\Json\Query\Field\Test\WhereOrFieldTest" file="/app/tests/Library/DAO/Postgre/Json/Query/Field/WhereOrFieldTest.php" line="107" assertions="2" time="0.000564"/>
+    </testsuite>
+    <testsuite name="Library\DAO\Postgre\Json\Query\Test\PostgresJSONQueryTest" file="/app/tests/Library/DAO/Postgre/Json/Query/PostgresJSONQueryTest.php" tests="15" assertions="26" failures="0" errors="0" time="0.013041">
+      <testcase name="testAddCondition" class="Library\DAO\Postgre\Json\Query\Test\PostgresJSONQueryTest" file="/app/tests/Library/DAO/Postgre/Json/Query/PostgresJSONQueryTest.php" line="18" assertions="2" time="0.000761"/>
+      <testcase name="testAddConditionOr" class="Library\DAO\Postgre\Json\Query\Test\PostgresJSONQueryTest" file="/app/tests/Library/DAO/Postgre/Json/Query/PostgresJSONQueryTest.php" line="30" assertions="2" time="0.001129"/>
+      <testcase name="testAddConditionObject" class="Library\DAO\Postgre\Json\Query\Test\PostgresJSONQueryTest" file="/app/tests/Library/DAO/Postgre/Json/Query/PostgresJSONQueryTest.php" line="45" assertions="2" time="0.000673"/>
+      <testcase name="testAddSelectField" class="Library\DAO\Postgre\Json\Query\Test\PostgresJSONQueryTest" file="/app/tests/Library/DAO/Postgre/Json/Query/PostgresJSONQueryTest.php" line="58" assertions="2" time="0.000800"/>
+      <testcase name="testAddSelectFieldObject" class="Library\DAO\Postgre\Json\Query\Test\PostgresJSONQueryTest" file="/app/tests/Library/DAO/Postgre/Json/Query/PostgresJSONQueryTest.php" line="70" assertions="2" time="0.001524"/>
+      <testcase name="testAddInnerSelect" class="Library\DAO\Postgre\Json\Query\Test\PostgresJSONQueryTest" file="/app/tests/Library/DAO/Postgre/Json/Query/PostgresJSONQueryTest.php" line="83" assertions="2" time="0.002699"/>
+      <testcase name="testAddSort" class="Library\DAO\Postgre\Json\Query\Test\PostgresJSONQueryTest" file="/app/tests/Library/DAO/Postgre/Json/Query/PostgresJSONQueryTest.php" line="97" assertions="2" time="0.000693"/>
+      <testcase name="testAddSortObject" class="Library\DAO\Postgre\Json\Query\Test\PostgresJSONQueryTest" file="/app/tests/Library/DAO/Postgre/Json/Query/PostgresJSONQueryTest.php" line="109" assertions="2" time="0.000572"/>
+      <testcase name="testSetGroupBy" class="Library\DAO\Postgre\Json\Query\Test\PostgresJSONQueryTest" file="/app/tests/Library/DAO/Postgre/Json/Query/PostgresJSONQueryTest.php" line="122" assertions="2" time="0.000792"/>
+      <testcase name="testSetUpdateData" class="Library\DAO\Postgre\Json\Query\Test\PostgresJSONQueryTest" file="/app/tests/Library/DAO/Postgre/Json/Query/PostgresJSONQueryTest.php" line="134" assertions="1" time="0.000574"/>
+      <testcase name="testAddUpdateData" class="Library\DAO\Postgre\Json\Query\Test\PostgresJSONQueryTest" file="/app/tests/Library/DAO/Postgre/Json/Query/PostgresJSONQueryTest.php" line="147" assertions="1" time="0.000540"/>
+      <testcase name="testGetSelectQuery" class="Library\DAO\Postgre\Json\Query\Test\PostgresJSONQueryTest" file="/app/tests/Library/DAO/Postgre/Json/Query/PostgresJSONQueryTest.php" line="162" assertions="3" time="0.000634"/>
+      <testcase name="testGetDeleteQuery" class="Library\DAO\Postgre\Json\Query\Test\PostgresJSONQueryTest" file="/app/tests/Library/DAO/Postgre/Json/Query/PostgresJSONQueryTest.php" line="192" assertions="1" time="0.000570"/>
+      <testcase name="testGetInsertQuery" class="Library\DAO\Postgre\Json\Query\Test\PostgresJSONQueryTest" file="/app/tests/Library/DAO/Postgre/Json/Query/PostgresJSONQueryTest.php" line="202" assertions="1" time="0.000545"/>
+      <testcase name="testGetBulkInsertQuery" class="Library\DAO\Postgre\Json\Query\Test\PostgresJSONQueryTest" file="/app/tests/Library/DAO/Postgre/Json/Query/PostgresJSONQueryTest.php" line="220" assertions="1" time="0.000536"/>
+    </testsuite>
+    <testsuite name="Library\DAO\Postgre\Query\Field\Test\FieldFunctionTest" file="/app/tests/Library/DAO/Postgre/Query/Field/FieldFunctionTest.php" tests="4" assertions="4" failures="0" errors="0" time="0.002165">
+      <testcase name="testFunctionWithoutParameters" class="Library\DAO\Postgre\Query\Field\Test\FieldFunctionTest" file="/app/tests/Library/DAO/Postgre/Query/Field/FieldFunctionTest.php" line="14" assertions="1" time="0.000549"/>
+      <testcase name="testFunctionWithParameters" class="Library\DAO\Postgre\Query\Field\Test\FieldFunctionTest" file="/app/tests/Library/DAO/Postgre/Query/Field/FieldFunctionTest.php" line="28" assertions="1" time="0.000541"/>
+      <testcase name="testFunctionWithSelf" class="Library\DAO\Postgre\Query\Field\Test\FieldFunctionTest" file="/app/tests/Library/DAO/Postgre/Query/Field/FieldFunctionTest.php" line="42" assertions="1" time="0.000542"/>
+      <testcase name="testCastFunction" class="Library\DAO\Postgre\Query\Field\Test\FieldFunctionTest" file="/app/tests/Library/DAO/Postgre/Query/Field/FieldFunctionTest.php" line="56" assertions="1" time="0.000533"/>
+    </testsuite>
+    <testsuite name="Library\DAO\Postgre\Query\Field\Test\GroupByFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/GroupByFieldTest.php" tests="3" assertions="3" failures="0" errors="0" time="0.001868">
+      <testcase name="testGroupByField" class="Library\DAO\Postgre\Query\Field\Test\GroupByFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/GroupByFieldTest.php" line="15" assertions="1" time="0.000700"/>
+      <testcase name="testGroupByFieldWithFunction" class="Library\DAO\Postgre\Query\Field\Test\GroupByFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/GroupByFieldTest.php" line="26" assertions="1" time="0.000606"/>
+      <testcase name="testBindParameters" class="Library\DAO\Postgre\Query\Field\Test\GroupByFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/GroupByFieldTest.php" line="43" assertions="1" time="0.000562"/>
+    </testsuite>
+    <testsuite name="Library\DAO\Postgre\Query\Field\Test\InnerQueryTest" file="/app/tests/Library/DAO/Postgre/Query/Field/InnerQueryTest.php" tests="2" assertions="3" failures="0" errors="0" time="0.001221">
+      <testcase name="testInnerQuery" class="Library\DAO\Postgre\Query\Field\Test\InnerQueryTest" file="/app/tests/Library/DAO/Postgre/Query/Field/InnerQueryTest.php" line="16" assertions="1" time="0.000617"/>
+      <testcase name="testGetBindParameters" class="Library\DAO\Postgre\Query\Field\Test\InnerQueryTest" file="/app/tests/Library/DAO/Postgre/Query/Field/InnerQueryTest.php" line="27" assertions="2" time="0.000604"/>
+    </testsuite>
+    <testsuite name="Library\DAO\Postgre\Query\Field\Test\SelectFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/SelectFieldTest.php" tests="4" assertions="4" failures="0" errors="0" time="0.003717">
+      <testcase name="testSelectField" class="Library\DAO\Postgre\Query\Field\Test\SelectFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/SelectFieldTest.php" line="16" assertions="1" time="0.001859"/>
+      <testcase name="testSelectFieldWithFunction" class="Library\DAO\Postgre\Query\Field\Test\SelectFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/SelectFieldTest.php" line="28" assertions="1" time="0.000700"/>
+      <testcase name="testSelectFieldWithMultipleFunctions" class="Library\DAO\Postgre\Query\Field\Test\SelectFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/SelectFieldTest.php" line="41" assertions="1" time="0.000582"/>
+      <testcase name="testGetBindParameters" class="Library\DAO\Postgre\Query\Field\Test\SelectFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/SelectFieldTest.php" line="58" assertions="1" time="0.000576"/>
+    </testsuite>
+    <testsuite name="Library\DAO\Postgre\Query\Field\Test\SortFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/SortFieldTest.php" tests="3" assertions="3" failures="0" errors="0" time="0.002046">
+      <testcase name="testSortFieldWithDefaultDirection" class="Library\DAO\Postgre\Query\Field\Test\SortFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/SortFieldTest.php" line="14" assertions="1" time="0.000813"/>
+      <testcase name="testSortFieldAsc" class="Library\DAO\Postgre\Query\Field\Test\SortFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/SortFieldTest.php" line="25" assertions="1" time="0.000648"/>
+      <testcase name="testSortFieldDesc" class="Library\DAO\Postgre\Query\Field\Test\SortFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/SortFieldTest.php" line="37" assertions="1" time="0.000585"/>
+    </testsuite>
+    <testsuite name="Library\DAO\Postgre\Query\Field\Test\WhereFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/WhereFieldTest.php" tests="7" assertions="14" failures="0" errors="0" time="0.007215">
+      <testcase name="testWhereField" class="Library\DAO\Postgre\Query\Field\Test\WhereFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/WhereFieldTest.php" line="17" assertions="2" time="0.000808"/>
+      <testcase name="testWhereFieldWithNullValue" class="Library\DAO\Postgre\Query\Field\Test\WhereFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/WhereFieldTest.php" line="30" assertions="2" time="0.000726"/>
+      <testcase name="testWhereFieldWithFunctions" class="Library\DAO\Postgre\Query\Field\Test\WhereFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/WhereFieldTest.php" line="43" assertions="2" time="0.001046"/>
+      <testcase name="testWhereFieldWithValueFunction" class="Library\DAO\Postgre\Query\Field\Test\WhereFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/WhereFieldTest.php" line="60" assertions="2" time="0.002364"/>
+      <testcase name="testWhereFieldWithFunctionAndValueFunction" class="Library\DAO\Postgre\Query\Field\Test\WhereFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/WhereFieldTest.php" line="79" assertions="2" time="0.001102"/>
+      <testcase name="testWhereFieldWithArrayValues" class="Library\DAO\Postgre\Query\Field\Test\WhereFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/WhereFieldTest.php" line="93" assertions="2" time="0.000610"/>
+      <testcase name="testWhereFieldWithArrayValuesAndFunction" class="Library\DAO\Postgre\Query\Field\Test\WhereFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/WhereFieldTest.php" line="106" assertions="2" time="0.000559"/>
+    </testsuite>
+    <testsuite name="Library\DAO\Postgre\Query\Field\Test\WhereOrFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/WhereOrFieldTest.php" tests="7" assertions="14" failures="0" errors="0" time="0.003979">
+      <testcase name="testWhereOrField" class="Library\DAO\Postgre\Query\Field\Test\WhereOrFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/WhereOrFieldTest.php" line="18" assertions="2" time="0.000567"/>
+      <testcase name="testWhereFieldWithNullValue" class="Library\DAO\Postgre\Query\Field\Test\WhereOrFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/WhereOrFieldTest.php" line="31" assertions="2" time="0.000547"/>
+      <testcase name="testWhereFieldWithFunctions" class="Library\DAO\Postgre\Query\Field\Test\WhereOrFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/WhereOrFieldTest.php" line="44" assertions="2" time="0.000624"/>
+      <testcase name="testWhereFieldWithValueFunction" class="Library\DAO\Postgre\Query\Field\Test\WhereOrFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/WhereOrFieldTest.php" line="61" assertions="2" time="0.000569"/>
+      <testcase name="testWhereFieldWithFunctionAndValueFunction" class="Library\DAO\Postgre\Query\Field\Test\WhereOrFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/WhereOrFieldTest.php" line="80" assertions="2" time="0.000560"/>
+      <testcase name="testWhereFieldWithArrayValues" class="Library\DAO\Postgre\Query\Field\Test\WhereOrFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/WhereOrFieldTest.php" line="94" assertions="2" time="0.000545"/>
+      <testcase name="testWhereFieldWithArrayValuesAndFunction" class="Library\DAO\Postgre\Query\Field\Test\WhereOrFieldTest" file="/app/tests/Library/DAO/Postgre/Query/Field/WhereOrFieldTest.php" line="107" assertions="2" time="0.000567"/>
+    </testsuite>
+    <testsuite name="Library\DAO\Postgre\Query\Test\PostgresQueryTest" file="/app/tests/Library/DAO/Postgre/Query/PostgresQueryTest.php" tests="17" assertions="30" failures="0" errors="0" time="0.010362">
+      <testcase name="testAddCondition" class="Library\DAO\Postgre\Query\Test\PostgresQueryTest" file="/app/tests/Library/DAO/Postgre/Query/PostgresQueryTest.php" line="17" assertions="2" time="0.000605"/>
+      <testcase name="testAddConditionOr" class="Library\DAO\Postgre\Query\Test\PostgresQueryTest" file="/app/tests/Library/DAO/Postgre/Query/PostgresQueryTest.php" line="29" assertions="2" time="0.000584"/>
+      <testcase name="testAddConditionObject" class="Library\DAO\Postgre\Query\Test\PostgresQueryTest" file="/app/tests/Library/DAO/Postgre/Query/PostgresQueryTest.php" line="44" assertions="2" time="0.000569"/>
+      <testcase name="testAddSelectField" class="Library\DAO\Postgre\Query\Test\PostgresQueryTest" file="/app/tests/Library/DAO/Postgre/Query/PostgresQueryTest.php" line="57" assertions="2" time="0.000544"/>
+      <testcase name="testAddSelectFieldObject" class="Library\DAO\Postgre\Query\Test\PostgresQueryTest" file="/app/tests/Library/DAO/Postgre/Query/PostgresQueryTest.php" line="69" assertions="2" time="0.000560"/>
+      <testcase name="testAddInnerSelect" class="Library\DAO\Postgre\Query\Test\PostgresQueryTest" file="/app/tests/Library/DAO/Postgre/Query/PostgresQueryTest.php" line="82" assertions="2" time="0.000574"/>
+      <testcase name="testAddSort" class="Library\DAO\Postgre\Query\Test\PostgresQueryTest" file="/app/tests/Library/DAO/Postgre/Query/PostgresQueryTest.php" line="96" assertions="2" time="0.000579"/>
+      <testcase name="testAddSortObject" class="Library\DAO\Postgre\Query\Test\PostgresQueryTest" file="/app/tests/Library/DAO/Postgre/Query/PostgresQueryTest.php" line="108" assertions="2" time="0.000563"/>
+      <testcase name="testSetGroupBy" class="Library\DAO\Postgre\Query\Test\PostgresQueryTest" file="/app/tests/Library/DAO/Postgre/Query/PostgresQueryTest.php" line="121" assertions="2" time="0.000558"/>
+      <testcase name="testSetUpdateData" class="Library\DAO\Postgre\Query\Test\PostgresQueryTest" file="/app/tests/Library/DAO/Postgre/Query/PostgresQueryTest.php" line="133" assertions="1" time="0.000550"/>
+      <testcase name="testAddUpdateData" class="Library\DAO\Postgre\Query\Test\PostgresQueryTest" file="/app/tests/Library/DAO/Postgre/Query/PostgresQueryTest.php" line="146" assertions="1" time="0.000540"/>
+      <testcase name="testGetSelectQuery" class="Library\DAO\Postgre\Query\Test\PostgresQueryTest" file="/app/tests/Library/DAO/Postgre/Query/PostgresQueryTest.php" line="161" assertions="3" time="0.000647"/>
+      <testcase name="testGetUpdateQuery" class="Library\DAO\Postgre\Query\Test\PostgresQueryTest" file="/app/tests/Library/DAO/Postgre/Query/PostgresQueryTest.php" line="191" assertions="2" time="0.000923"/>
+      <testcase name="testGetDeleteQuery" class="Library\DAO\Postgre\Query\Test\PostgresQueryTest" file="/app/tests/Library/DAO/Postgre/Query/PostgresQueryTest.php" line="200" assertions="2" time="0.000697"/>
+      <testcase name="testGetInsertQuery" class="Library\DAO\Postgre\Query\Test\PostgresQueryTest" file="/app/tests/Library/DAO/Postgre/Query/PostgresQueryTest.php" line="209" assertions="1" time="0.000636"/>
+      <testcase name="testGetBulkInsertQueryWithNoInsertData" class="Library\DAO\Postgre\Query\Test\PostgresQueryTest" file="/app/tests/Library/DAO/Postgre/Query/PostgresQueryTest.php" line="227" assertions="1" time="0.000600"/>
+      <testcase name="testGetBulkInsertQuery" class="Library\DAO\Postgre\Query\Test\PostgresQueryTest" file="/app/tests/Library/DAO/Postgre/Query/PostgresQueryTest.php" line="236" assertions="1" time="0.000633"/>
+    </testsuite>
+    <testsuite name="Library\DAO\Query\QueryFactoryTest" file="/app/tests/Library/DAO/Query/QueryFactoryTest.php" tests="6" assertions="6" failures="0" errors="0" time="0.004241">
+      <testcase name="testCreateRelationQuery" class="Library\DAO\Query\QueryFactoryTest" file="/app/tests/Library/DAO/Query/QueryFactoryTest.php" line="11" assertions="1" time="0.000799"/>
+      <testcase name="testCreateJsonQuery" class="Library\DAO\Query\QueryFactoryTest" file="/app/tests/Library/DAO/Query/QueryFactoryTest.php" line="22" assertions="1" time="0.000643"/>
+      <testcase name="testDefaultQuery" class="Library\DAO\Query\QueryFactoryTest" file="/app/tests/Library/DAO/Query/QueryFactoryTest.php" line="33" assertions="1" time="0.000606"/>
+      <testcase name="testCreateRelationalWhereField" class="Library\DAO\Query\QueryFactoryTest" file="/app/tests/Library/DAO/Query/QueryFactoryTest.php" line="44" assertions="1" time="0.000622"/>
+      <testcase name="testCreateJSONWhereField" class="Library\DAO\Query\QueryFactoryTest" file="/app/tests/Library/DAO/Query/QueryFactoryTest.php" line="55" assertions="1" time="0.000798"/>
+      <testcase name="testCreateFieldFunction" class="Library\DAO\Query\QueryFactoryTest" file="/app/tests/Library/DAO/Query/QueryFactoryTest.php" line="66" assertions="1" time="0.000773"/>
+    </testsuite>
+    <testsuite name="CrawlerConsumerTest" file="/app/tests/Services/Crawler/Consumers/CrawlerConsumerTest.php" tests="4" assertions="12" failures="0" errors="0" time="0.023715">
+      <testcase name="testRunFromCli" class="CrawlerConsumerTest" file="/app/tests/Services/Crawler/Consumers/CrawlerConsumerTest.php" line="7" assertions="2" time="0.018243"/>
+      <testcase name="testRunFromQueue" class="CrawlerConsumerTest" file="/app/tests/Services/Crawler/Consumers/CrawlerConsumerTest.php" line="29" assertions="2" time="0.001575"/>
+      <testcase name="testfetchWorkFromQueue" class="CrawlerConsumerTest" file="/app/tests/Services/Crawler/Consumers/CrawlerConsumerTest.php" line="55" assertions="5" time="0.002399"/>
+      <testcase name="testFetchWorkFromEmptyQueue" class="CrawlerConsumerTest" file="/app/tests/Services/Crawler/Consumers/CrawlerConsumerTest.php" line="95" assertions="3" time="0.001498"/>
+    </testsuite>
+    <testsuite name="Services\Crawler\Test\CrawlerTest" file="/app/tests/Services/Crawler/CrawlerTest.php" tests="4" assertions="8" failures="0" errors="0" time="0.009173">
+      <testcase name="testPushUrl" class="Services\Crawler\Test\CrawlerTest" file="/app/tests/Services/Crawler/CrawlerTest.php" line="12" assertions="1" time="0.003409"/>
+      <testcase name="testPushUrlWithEmptyUrl" class="Services\Crawler\Test\CrawlerTest" file="/app/tests/Services/Crawler/CrawlerTest.php" line="33" assertions="3" time="0.001129"/>
+      <testcase name="testStartCrawler" class="Services\Crawler\Test\CrawlerTest" file="/app/tests/Services/Crawler/CrawlerTest.php" line="59" assertions="1" time="0.002848"/>
+      <testcase name="testStartCrawlerWithInvalidUrl" class="Services\Crawler\Test\CrawlerTest" file="/app/tests/Services/Crawler/CrawlerTest.php" line="87" assertions="3" time="0.001787"/>
+    </testsuite>
+    <testsuite name="Services\QTM\DAO\Test\TaskDAOTest" file="/app/tests/Services/QTM/DAO/TaskDAOTest.php" tests="15" assertions="10" failures="0" errors="0" time="0.021970">
+      <testcase name="testSaveUnsuccessful" class="Services\QTM\DAO\Test\TaskDAOTest" file="/app/tests/Services/QTM/DAO/TaskDAOTest.php" line="13" assertions="1" time="0.008623"/>
+      <testcase name="testSave" class="Services\QTM\DAO\Test\TaskDAOTest" file="/app/tests/Services/QTM/DAO/TaskDAOTest.php" line="33" assertions="0" time="0.001095"/>
+      <testcase name="testDeleteTaskUnsuccessful" class="Services\QTM\DAO\Test\TaskDAOTest" file="/app/tests/Services/QTM/DAO/TaskDAOTest.php" line="52" assertions="1" time="0.001039"/>
+      <testcase name="testDeleteTaskSubtaskUnsuccessful" class="Services\QTM\DAO\Test\TaskDAOTest" file="/app/tests/Services/QTM/DAO/TaskDAOTest.php" line="69" assertions="1" time="0.000950"/>
+      <testcase name="testDeleteTask" class="Services\QTM\DAO\Test\TaskDAOTest" file="/app/tests/Services/QTM/DAO/TaskDAOTest.php" line="85" assertions="0" time="0.000864"/>
+      <testcase name="testAddTaskUnsuccessful" class="Services\QTM\DAO\Test\TaskDAOTest" file="/app/tests/Services/QTM/DAO/TaskDAOTest.php" line="99" assertions="1" time="0.000896"/>
+      <testcase name="testAddTask" class="Services\QTM\DAO\Test\TaskDAOTest" file="/app/tests/Services/QTM/DAO/TaskDAOTest.php" line="116" assertions="0" time="0.000873"/>
+      <testcase name="testRemoveSubTaskUnsuccessful" class="Services\QTM\DAO\Test\TaskDAOTest" file="/app/tests/Services/QTM/DAO/TaskDAOTest.php" line="131" assertions="1" time="0.000887"/>
+      <testcase name="testRemoveSubTask" class="Services\QTM\DAO\Test\TaskDAOTest" file="/app/tests/Services/QTM/DAO/TaskDAOTest.php" line="148" assertions="0" time="0.000876"/>
+      <testcase name="testUpdateStatusUnsuccessful" class="Services\QTM\DAO\Test\TaskDAOTest" file="/app/tests/Services/QTM/DAO/TaskDAOTest.php" line="163" assertions="1" time="0.000944"/>
+      <testcase name="testUpdateStatus" class="Services\QTM\DAO\Test\TaskDAOTest" file="/app/tests/Services/QTM/DAO/TaskDAOTest.php" line="180" assertions="0" time="0.000919"/>
+      <testcase name="testIsTaskCompleteWithTaskDataNotCompleted" class="Services\QTM\DAO\Test\TaskDAOTest" file="/app/tests/Services/QTM/DAO/TaskDAOTest.php" line="195" assertions="1" time="0.001043"/>
+      <testcase name="testIsTaskCompleteWithTaskIdNotCompleted" class="Services\QTM\DAO\Test\TaskDAOTest" file="/app/tests/Services/QTM/DAO/TaskDAOTest.php" line="214" assertions="1" time="0.000970"/>
+      <testcase name="testIsTaskCompleteWithTaskData" class="Services\QTM\DAO\Test\TaskDAOTest" file="/app/tests/Services/QTM/DAO/TaskDAOTest.php" line="235" assertions="1" time="0.000996"/>
+      <testcase name="testIsTaskCompleteWithTaskId" class="Services\QTM\DAO\Test\TaskDAOTest" file="/app/tests/Services/QTM/DAO/TaskDAOTest.php" line="254" assertions="1" time="0.000994"/>
+    </testsuite>
+    <testsuite name="Services\QTM\Test\QTMTest" file="/app/tests/Services/QTM/QTMTest.php" tests="12" assertions="6" failures="0" errors="0" time="0.024068">
+      <testcase name="testPublishWithoutTask" class="Services\QTM\Test\QTMTest" file="/app/tests/Services/QTM/QTMTest.php" line="17" assertions="2" time="0.005814"/>
+      <testcase name="testPublishWithTask" class="Services\QTM\Test\QTMTest" file="/app/tests/Services/QTM/QTMTest.php" line="42" assertions="2" time="0.002410"/>
+      <testcase name="testFinishWithNoTask" class="Services\QTM\Test\QTMTest" file="/app/tests/Services/QTM/QTMTest.php" line="67" assertions="0" time="0.001053"/>
+      <testcase name="testFinishWithIncompleteTask" class="Services\QTM\Test\QTMTest" file="/app/tests/Services/QTM/QTMTest.php" line="87" assertions="0" time="0.001254"/>
+      <testcase name="testFinishWithCompletedTask" class="Services\QTM\Test\QTMTest" file="/app/tests/Services/QTM/QTMTest.php" line="120" assertions="0" time="0.002766"/>
+      <testcase name="testFinishWithCompletedTaskWithCallbackUrl" class="Services\QTM\Test\QTMTest" file="/app/tests/Services/QTM/QTMTest.php" line="158" assertions="0" time="0.001499"/>
+      <testcase name="testFinishTrackExecutionTime" class="Services\QTM\Test\QTMTest" file="/app/tests/Services/QTM/QTMTest.php" line="195" assertions="0" time="0.003038"/>
+      <testcase name="testFinishNoTrackExecutionTime" class="Services\QTM\Test\QTMTest" file="/app/tests/Services/QTM/QTMTest.php" line="238" assertions="0" time="0.001530"/>
+      <testcase name="testReceive" class="Services\QTM\Test\QTMTest" file="/app/tests/Services/QTM/QTMTest.php" line="281" assertions="1" time="0.001726"/>
+      <testcase name="testGetTaskStatus" class="Services\QTM\Test\QTMTest" file="/app/tests/Services/QTM/QTMTest.php" line="308" assertions="0" time="0.001029"/>
+      <testcase name="testGenerateEmptyTask" class="Services\QTM\Test\QTMTest" file="/app/tests/Services/QTM/QTMTest.php" line="320" assertions="1" time="0.000991"/>
+      <testcase name="testUpdateTaskStatus" class="Services\QTM\Test\QTMTest" file="/app/tests/Services/QTM/QTMTest.php" line="332" assertions="0" time="0.000958"/>
+    </testsuite>
+  </testsuite>
+</testsuites>

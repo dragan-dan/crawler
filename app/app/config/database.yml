@@ -1,0 +1,3 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_url: 'postgres://root:root@starreddocker_db_1:5432/starred'
